@@ -6,12 +6,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 st.title('Decision Tree Model Classifier')
-col1, col2 = st.columns(2)
-
-with col1:
-    st.image('negotiating.jpg', width = 200)
-with col2:
-    st.image('negotiating.jpg', width = 200)
 
 df = pd.read_csv('music.csv')
 
