@@ -1,5 +1,6 @@
 streamlit
-scikit-learn.tree
+scikit-learn
+sklearn.tree
 pandas
 numpy
 matplotlib
